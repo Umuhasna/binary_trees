@@ -17,7 +17,7 @@ void binary_tree_delete(binary_tree_t *tree)
 	{
 		if (current->left != NULL)
 		{
-            /* Traverse to the left child */
+			/* Traverse to the left child */
 			current = current->left;
 		}
 		else if (current->right != NULL)
