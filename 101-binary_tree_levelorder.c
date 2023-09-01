@@ -14,7 +14,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 		return;
 
 	/* Create a queue using an array */
-	binary_tree_t **queue = malloc(sizeof(binary_tree_t *) * 1024)
+	binary_tree_t **queue = malloc(sizeof(binary_tree_t *) * 1024);
 		if (queue == NULL)
 			return;
 
